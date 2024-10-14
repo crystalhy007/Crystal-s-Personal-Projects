@@ -5,7 +5,7 @@
  
 ## Introduction
 The company recently launched an OKR (Objectives and Key Results) tool to track and manage OKRs across departments. This tool serves as a centralized repository for OKR data input, providing a structured approach to tracking goals and progress. The company's OKR structure is as follows:  
-*(insert an image of OKR structure here)*
+![OKR Structure](https://github.com/crystalhy007/OKR_data_clean/blob/master/Pic/OKR_structure.png)
 
 Due to licensing restrictions, only 250 licenses are available for the tool, including administrators. This means that access to the tool is limited to specific groups of employees, preventing company-wide access to the OKR tool directly.
 
