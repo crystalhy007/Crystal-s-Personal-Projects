@@ -24,6 +24,7 @@ The OKR data is sourced from the OKR tool. It includes the following key element
 - Key results
 - Progress tracking (percentages)
 - Departmental and individual-level OKRs
+- Last check-in notes
 
 ## Tools Used
 - **Python**: To extract, transform, and load (ETL) the OKR data from the tool.
@@ -31,20 +32,18 @@ The OKR data is sourced from the OKR tool. It includes the following key element
 
 ## Data Process
 1. **Data Extraction**:
-   - Pull OKR data from the tool’s database, including objectives, key results, progress, and employee data.
+   - Pull OKR data from the tool, including objectives, key results, progress, and last check-in data.
    
 2. **Data Transformation**:
-   - Clean the data to ensure consistency in format and completeness.
-   - Map objectives and key results to the correct teams and departments.
+   - Clean the data to ensure consistency in format and completeness. [See Data Clean](https://github.com/crystalhy007/OKR_data_clean/blob/master/OKR_Data_Clean.ipynb)
+   - Map objectives and key results.
 
 3. **Data Loading**:
    - Load the transformed data into Tableau for visualization.
 
 ## Dashboard Design
-- **Overview Page**: Displays high-level OKR progress for the entire company, with options to filter by department or team.
-- **Departmental Page**: Breaks down OKRs by department, allowing employees to view detailed progress.
-- **Team Page**: Focuses on team-level OKRs, showing how teams are contributing to the company's overall objectives.
+- **Overview Page**: Displays high-level annual OKR progress for the entire company.
+- **Departmental Page**: Breaks down OKRs by department, allowing employees to view detailed progress and showing how teams are contributing to the company's overall objectives.
 
-## Recommendations
-1. **Expand License Allocation**: If demand for more direct interaction with the OKR tool increases, consider expanding the number of licenses available.
-2. **
+[See Tableau](https://public.tableau.com/app/profile/yue.hu7240/viz/OKRDashboard21/2023AnnualOverview#1)
+
